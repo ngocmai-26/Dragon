@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 13px;
+    background: #b3afaf;
+}
+
+.container_body {
+    width: 100%;
+}
+
+.content {
+    position: relative;
+    max-width: 630px;
+    height: auto;
+    margin: 10px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.bg-top {
+    background: linear-gradient(to bottom,#fe5604 0%,#fe5604 30%,#ff5601 100%);
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 42px;
+    margin-left: 0;
+    margin-top: -4px;
+}
+
+.content-item {
+    background: #ff5601;
+    margin-left: 0;
+    margin-bottom: -27px;
+}
+
+.logo {
+    height: 68px;
+    text-align: center;
+    margin-top: -10px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo img {
+    margin-top: -32px;
+    z-index: 2;
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-item {
+    background: #924c31;
+    width: 25%;
+    margin: 5px;
+    text-align: center;
+    line-height: 28px;
+    padding: auto;
+}
+
+.menu-item a {
+    color: white;
+    font-size: 14px;
+}
+
+.active {
+    background: #ffaf4c;
+}
+
+.active a {
+    color: black;
+}
+
+.bg-bodyContent {
+    background-color: #ffaf4d;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-body__content {
+    background-position: right bottom;
+    
+}
+
+.bg-body__login--button {
+    text-align: center;
+
+}
+
+.btn-login {
+    background: #f44336;
+    border: 0;
+    padding: 8px 10px;
+    color: #fff;
+    margin: 5px 0;
+}
+
+.btn-login:hover {
+    background: #4CAF50;
+}
+
+.bf-body__column {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    text-align: center;
+    margin: 5px;
+}
+
+figcaption {
+    font-size: 9px;
+    color: #ad4105;
+}
+
+figcaption a{
+    color: #ad4105;
+}
+
+.stick {
+    background: #e49637;
+    width: 100%;
+}
+
+.box_botsss {
+    line-height: 30px;
+    margin: 5px 0;
+}
+
+.topic_name {
+    width: 100%;
+    display: flex;
+    padding-left: 3px;
+    align-items: center;
+}
+
+.avatar {
+    width: 25px;
+    float: left;
+    margin-right: 5px;
+}
+
+.avatar img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.event-name {
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 16px;
+
+}
+
+.event-name a {
+    color: #ad4105;
+}
+
+.box_name_eman {
+    font-size: 10px;
+    color: #666;
+    display: block;
+}
+
+.box_topsss {
+    display: flex;
+    justify-content: right;
+}
+
+.pagination__item {
+    background-color: #fff;
+    color: #ad4105;
+    padding: 2px 5px;
+    margin: 5px 2px;
+    font-weight: 700;
+    border: 0;
+}
+
+.pagecurrent {
+    background: #ad4105;
+    color: #fff;
+}
+
+.box_parent_list {
+    background: #d35220;
+    width: 100%;
+    line-height: 22px;
+    font-size: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.box_parent_list .box_topss {
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+tr {
+    line-height: 28px;
+}
+
+tr.menu1 td {
+    border: 2px solid #ffaf4d;
+}
+
+.box_list_parent tr.menu1 td a {
+    color: #fff;
+}
+
+tr.menu1 td, td#selected {
+    background-color: #924c31;
+    
+}
+
+.copyright {
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-top: 15px;
+    height: 130px;
+}
+
+p {
+    margin: 0;
+}
+
+.copyright-link {
+    color: #000;
+}
+
+.copyright-center {
+}
+
+
+/*********Home**************/
+
+/* .bg-body__content {
+    padding: 5px;
+} */
+
+.bg__line {
+    border-top: 3px solid #e73d00;
+}
+
+.bg__content {
+    background: #ffaf4c;
+    text-align: justify;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.content {
+    padding: 5px;
+}
+
+.title-line {
+    border-bottom: 1px solid #666;
+    color: #e73d00;
+
+}
+
+.content-img img {
+    padding: 7px 0;
+}
+
+/***********Login*****************/
+.menu_login {
+    text-align: center;
+}
+
+.menu_login td {
+    border: 3px solid #561d00;
+    background-color: #924c31;
+    color: #fff;
+}
+
+.menu_login .select {
+    background-color: #ffaf4c;
+}
+
+.login-form {
+    margin: 5px 0;
+}
+
+.login-form label {
+    width: 70px;
+}
+
+.login-form input, .forget-form input {
+    padding: 4px ;
+    border-radius: 6px;
+    border: 0;
+    outline: none;
+}
+
+.btn_button {
+    border: 0;
+    padding: 7px 15px;
+    margin: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #f44336;
+}
+
+#login:hover {
+    color: #000;
+    background-color: #ccc;
+
+}
+
+.forget-form {
+    margin: 5px 10px;
+    font-weight: 600;
+}
+
+.forget-form label {
+    width: 150px;
+}
+
+#forget {
+    background-color: #e73e0046;
+    color: #ffffffb0;
+}
